@@ -102,7 +102,7 @@ def cover_option_config(option: JmOption):
 
 
 def log_before_raise():
-    jm_download_dir = env('JM_DOWNLOAD_DIR', workspace())
+    jm_download_dir = env('JM_DOWNLOAD_DIR', os.getcwd())
     mkdir_if_not_exists(jm_download_dir)
 
     def decide_filepath(e):
