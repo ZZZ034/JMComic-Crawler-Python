@@ -8,7 +8,7 @@ from jmcomic.cli import JmcomicUI
 
 # 下方填入你要下载的本子的id，一行一个，每行的首尾可以有空白字符
 jm_albums = '''
-1489039
+1456860
 '''
 
 # 单独下载章节
